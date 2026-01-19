@@ -25,16 +25,12 @@ An end-to-end cafe management solution featuring a professional Flask ordering s
 pip install flask streamlit pandas plotly
 ```
 
-### 2. Launch Flask Application (Front-of-House)
-```bash
-python cafe_flask.py
-```
-Open `http://127.0.0.1:5002` to start taking orders.
-
-### 3. Launch Streamlit Dashboard (Back-of-House)
+### 2. Launch Application
+To start the POS and Analytics system:
 ```bash
 streamlit run cafe_streamlit.py
 ```
+*Note: This dashboard handles both menu management and sales tracking.*
 
 ## 📁 Repository Structure
 - `cafe_flask.py`: Main Flask application.
