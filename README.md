@@ -33,8 +33,7 @@ streamlit run cafe_streamlit.py
 *Note: This dashboard handles both menu management and sales tracking.*
 
 ## 📁 Repository Structure
-- `cafe_flask.py`: Main Flask application.
-- `cafe_streamlit.py`: Streamlit dashboard.
+- `cafe_streamlit.py`: Main Streamlit application (POS & Admin).
 - `cafe_backend.py`: Core logic for orders and menu management.
-- `templates/`: HTML structures for the Flask app.
+- `Cafe_Management_System.ipynb`: Development notebook.
 - `cafe.db`: SQLite database file.
